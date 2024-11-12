@@ -1,0 +1,95 @@
+Objectness and object understanding: Identification: Object
+Objectness and object understanding: Identification: Background
+Objectness and object understanding: Find unique shape
+Objectness and object understanding: Find unique color
+Objectness and object understanding: Obstruction and obstacles
+Objectness and object understanding: Noise
+Objectness and object understanding: Hole
+Objectness and object understanding: Continuity
+Objectness and object understanding: Connectedness
+Objectness and object understanding: Object parts: In
+Objectness and object understanding: Object parts: Out
+Objectness and object understanding: Object parts: Surround
+Objectness and object understanding: Object parts: Center
+Objectness and object understanding: Object parts: Corner
+Objectness and object understanding: Object parts: Neighbor
+Objectness and object understanding: Object parts: Border
+Objectness and object understanding: Separator or compartment
+Objectness and object understanding: Recurring sequence or visual motif
+Objectness and object understanding: Alternating pattern
+Objectness and object understanding: Cluster or clutter
+Objectness and object understanding: Connected component
+Objectness and object understanding: Nested objects
+Objectness and object understanding: Symmetrical
+Objectness and object understanding: Unsymmetrical
+Objectness and object understanding: Basic shape: Pyramid
+Objectness and object understanding: Basic shape: Flower
+Objectness and object understanding: Basic shape: Maze
+Objectness and object understanding: Basic shape: Snake
+Objectness and object understanding: Basic shape: Rectangle
+Objectness and object understanding: Basic shape: Square
+Objectness and object understanding: Basic shape: Circle
+Objectness and object understanding: Basic shape: Oval
+Objectness and object understanding: Basic shape: Triangle
+Objectness and object understanding: Basic shape: Diamond
+Objectness and object understanding: Basic shape: L-shape
+Objectness and object understanding: Basic shape: T-shape
+Objectness and object understanding: Basic shape: Cross or plus
+Objectness and object understanding: Basic shape: Arrow
+Objectness and object understanding: Basic shape: V-shape or chevron
+Objectness and object understanding: Basic shape: Star
+Objectness and object understanding: Basic shape: Pentagon
+Objectness and object understanding: Basic shape: Hexagon
+Objectness and object understanding: Basic shape: Heart
+Objectness and object understanding: Basic shape: Spiral
+Objectness and object understanding: Basic shape: Zigzag
+Objectness and object understanding: Basic shape: Wave
+Objectness and object understanding: Basic shape: Shape or bracket
+Objectness and object understanding: Basic shape: Donut or ring
+Goal directedness: Add shape
+Goal directedness: Copy shape
+Goal directedness: Sort
+Goal directedness: Summarize
+Goal directedness: Trim shape
+Goal directedness: Crop shape
+Goal directedness: Compact shape
+Goal directedness: Find corresponding
+Goal directedness: Logical operations: Or
+Goal directedness: Logical operations: And
+Goal directedness: Logical operations: Not
+Goal directedness: Logical operations: Xor
+Goal directedness: Logical operations: Nand
+Goal directedness: Logical operations: Nor
+Goal directedness: Fill: Holes
+Goal directedness: Fill: Pattern
+Goal directedness: Continue or extrapolate
+Goal directedness: Expand or repeat
+Goal directedness: Repeat: With variation
+Goal directedness: Repeat: Exact
+Goal directedness: Connect
+Goal directedness: Change object color
+Goal directedness: Move closer to
+Goal directedness: Move farther from
+Goal directedness: Enlarge but keep proportion
+Goal directedness: Shrink but keep proportion
+Goal directedness: Find dominant color
+Goal directedness: Overlay shapes
+Natural numbers: Count
+Natural numbers: Sort
+Natural numbers: Superlatives: Most repeated
+Natural numbers: Superlatives: Least repeated
+Natural numbers: Superlatives: Tallest
+Natural numbers: Superlatives: Biggest or largest
+Natural numbers: Superlatives: Shortest
+Natural numbers: Superlatives: Smallest or tiniest
+Natural numbers: Arithmetic: Add
+Natural numbers: Arithmetic: Subtract
+Natural numbers: Arithmetic: Multiply
+Natural numbers: Arithmetic: Divide
+Elementary geometry: Fit shape at position
+Elementary geometry: Symmetry operations
+Elementary geometry: Scale
+Elementary geometry: Rotate
+Elementary geometry: Mirror
+Elementary geometry: Object translation
+Elementary geometry: Transpose
