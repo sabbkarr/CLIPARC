@@ -529,7 +529,7 @@ LARC_Labels = {"Task 1": ["Object identification", "Hole, continuity, connectedn
     "Task 529": ["Object identification", "Logical operations", "Change object color"],
     "Task 530": ["Object identification", "Logical operations", "Change object color"],
     "Task 531": ["Object identification", "Logical operations", "Change object color"],
-    "Task 532": [],
+    "Task 532": ["Object identification"],
     "Task 533": ["Object identification", "Object parts (neighbor)", "Fill (holes, pattern, etc.)"],
     "Task 534": ["Object identification", "Object parts (neighbor)", "Fill (holes, pattern, etc.)"],
     "Task 535": ["Object identification", "Summarize, trim or crop"],
