@@ -1,5 +1,4 @@
-{
-    'Task 1': ['Objectness and object understanding: Relational positioning: Inside', 'Objectness and object understanding: Hole', 'Goal directedness: Fill: Holes'],
+{'Task 1': ['Objectness and object understanding: Relational positioning: Inside', 'Objectness and object understanding: Hole', 'Goal directedness: Fill: Holes'],
     'Task 2': ['Objectness and object understanding: Hole', 'Goal directedness: Fill: Holes'],
     'Task 3': ['Objectness and object understanding: Recurring sequence or visual motif', 'Goal directedness: Continue or extrapolate', 'Goal directedness: Change object color'],
     'Task 4': ['Objectness and object understanding: Relational positioning: Left or side or west', 'Objectness and object understanding: Relational positioning: Right or side or east', 'Goal directedness: Find corresponding'],
@@ -573,5 +572,4 @@
     'Task 575': ['Goal directedness: Expand or repeat: With variation', 'Objectness and object understanding: Horizontal', 'Objectness and object understanding: Connected component'],
     'Task 576': ['Goal directedness: Move shape', 'Goal directedness: Change object color'],
     'Task 577': ['Goal directedness: Complete pattern', 'Objectness and object understanding: Recurring sequence or visual motif'],
-    'Task 578': ['Goal directedness: Complete pattern', 'Objectness and object understanding: Recurring sequence or visual motif']
-}
+    'Task 578': ['Goal directedness: Complete pattern', 'Objectness and object understanding: Recurring sequence or visual motif']}
