@@ -9,30 +9,33 @@ Objectness and object understanding: Relational positioning: Between
 Objectness and object understanding: Relational positioning: Touching
 Objectness and object understanding: Relational positioning: Separated
 Objectness and object understanding: Identification: Object
+Objectness and object understanding: Identification: Feature
 Objectness and object understanding: Identification: Shape
 Objectness and object understanding: Identification: Background
-Objectness and object understanding: Unique shape
-Objectness and object understanding: Unique color
+Objectness and object understanding: Unique or different shape
+Objectness and object understanding: Unique or different color
+Objectness and object understanding: Unique or different feature
 Objectness and object understanding: Obstruction and obstacles
 Objectness and object understanding: Noise
 Objectness and object understanding: Hole
 Objectness and object understanding: Continuity
 Objectness and object understanding: Connectedness
-Objectness and object understanding: Object parts: In
-Objectness and object understanding: Object parts: Out
-Objectness and object understanding: Object parts: Surround
-Objectness and object understanding: Object parts: Center
-Objectness and object understanding: Object parts: Corner
-Objectness and object understanding: Object parts: Neighbor
-Objectness and object understanding: Object parts: Border
-Objectness and object understanding: Separator or compartment
-Objectness and object understanding: Recurring sequence or visual motif
-Objectness and object understanding: Alternating pattern
 Objectness and object understanding: Cluster or clutter
 Objectness and object understanding: Connected component
+Objectness and object understanding: Alternating pattern
 Objectness and object understanding: Nested objects
+Objectness and object understanding: Separator or compartment
+Objectness and object understanding: Recurring sequence or visual motif
 Objectness and object understanding: Symmetrical
 Objectness and object understanding: Unsymmetrical
+Objectness and object understanding: Horizontal
+Objectness and object understanding: Vertical
+Objectness and object understanding: Object parts: In or inside
+Objectness and object understanding: Object parts: Out or outside
+Objectness and object understanding: Object parts: Surround or border
+Objectness and object understanding: Object parts: Center
+Objectness and object understanding: Object parts: Corner or edge
+Objectness and object understanding: Object parts: Neighbor
 Objectness and object understanding: Basic shape: Pyramid
 Objectness and object understanding: Basic shape: Flower
 Objectness and object understanding: Basic shape: Maze
@@ -59,12 +62,13 @@ Objectness and object understanding: Basic shape: Shape or bracket
 Objectness and object understanding: Basic shape: Donut or ring
 Goal directedness: Add shape
 Goal directedness: Copy shape
-Goal directedness: Sort
-Goal directedness: Summarize
+Goal directedness: Move shape
+Goal directedness: Sort shapes
 Goal directedness: Trim shape
 Goal directedness: Crop shape
 Goal directedness: Compact shape
 Goal directedness: Find corresponding
+Goal directedness: Summarize
 Goal directedness: Logical operations: Or
 Goal directedness: Logical operations: And
 Goal directedness: Logical operations: Not
@@ -74,9 +78,8 @@ Goal directedness: Logical operations: Nor
 Goal directedness: Fill: Holes
 Goal directedness: Fill: Pattern
 Goal directedness: Continue or extrapolate
-Goal directedness: Expand or repeat
-Goal directedness: Repeat: With variation
-Goal directedness: Repeat: Exact
+Goal directedness: Expand or repeat: With variation
+Goal directedness: Expand or repeat: Exact
 Goal directedness: Connect
 Goal directedness: Change object color
 Goal directedness: Move closer to
@@ -84,6 +87,7 @@ Goal directedness: Move farther from
 Goal directedness: Enlarge but keep proportion
 Goal directedness: Shrink but keep proportion
 Goal directedness: Overlay shapes
+Goal directedness: Complete pattern
 Goal directedness: Find superlative: Dominant color
 Goal directedness: Find superlative: Biggest shape or object
 Goal directedness: Find superlative: Smallest shape or object
@@ -91,7 +95,7 @@ Goal directedness: Find superlative: Object or color at highest point
 Goal directedness: Find superlative: Object or color at lowest point
 Goal directedness: Find superlative: Object or color at left-most point
 Goal directedness: Find superlative: Object or color at right-most point
-Goal directedness: Find: Unique
+Goal directedness: Find: Unique or different
 Natural numbers: Count
 Natural numbers: Sort
 Natural numbers: Superlatives: Most
@@ -105,9 +109,24 @@ Natural numbers: Arithmetic: Subtract
 Natural numbers: Arithmetic: Multiply
 Natural numbers: Arithmetic: Divide
 Elementary geometry: Fit shape at position
-Elementary geometry: Symmetry operations
-Elementary geometry: Scale
-Elementary geometry: Rotate
-Elementary geometry: Mirror
-Elementary geometry: Object translation
-Elementary geometry: Transpose
+Elementary geometry: Symmetry operations: Scale
+Elementary geometry: Symmetry operations: Rotate
+Elementary geometry: Symmetry operations: Mirror
+Elementary geometry: Symmetry operations: Object translation
+Elementary geometry: Symmetry operations: Transpose
+Elementary geometry: Parallel
+Elementary geometry: Straight
+Elementary geometry: Alignment
+Elementary geometry: Convex
+Elementary geometry: Concave
+Elementary geometry: Orientation
+Elementary geometry: Right angle
+Elementary geometry: Chiral
+Elementary geometry: Equidistance
+Elementary geometry: Shapes: Parallelogram
+Elementary geometry: Shapes: Square
+Elementary geometry: Shapes: Rectangle
+Elementary geometry: Shapes: Triangle
+Elementary geometry: Shapes: Oval
+Elementary geometry: Shapes: Circle
+Elementary geometry: Shapes: Trapezoid
