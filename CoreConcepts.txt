@@ -1,7 +1,18 @@
+Objectness and object understanding: Relational positioning: Right or side or east
+Objectness and object understanding: Relational positioning: Left or side or west
+Objectness and object understanding: Relational positioning: Above or top or north
+Objectness and object understanding: Relational positioning: Below or bottom or south
+Objectness and object understanding: Relational positioning: Around
+Objectness and object understanding: Relational positioning: Center
+Objectness and object understanding: Relational positioning: Inside
+Objectness and object understanding: Relational positioning: Between
+Objectness and object understanding: Relational positioning: Touching
+Objectness and object understanding: Relational positioning: Separated
 Objectness and object understanding: Identification: Object
+Objectness and object understanding: Identification: Shape
 Objectness and object understanding: Identification: Background
-Objectness and object understanding: Find unique shape
-Objectness and object understanding: Find unique color
+Objectness and object understanding: Unique shape
+Objectness and object understanding: Unique color
 Objectness and object understanding: Obstruction and obstacles
 Objectness and object understanding: Noise
 Objectness and object understanding: Hole
@@ -72,12 +83,19 @@ Goal directedness: Move closer to
 Goal directedness: Move farther from
 Goal directedness: Enlarge but keep proportion
 Goal directedness: Shrink but keep proportion
-Goal directedness: Find dominant color
 Goal directedness: Overlay shapes
+Goal directedness: Find superlative: Dominant color
+Goal directedness: Find superlative: Biggest shape or object
+Goal directedness: Find superlative: Smallest shape or object
+Goal directedness: Find superlative: Object or color at highest point
+Goal directedness: Find superlative: Object or color at lowest point
+Goal directedness: Find superlative: Object or color at left-most point
+Goal directedness: Find superlative: Object or color at right-most point
+Goal directedness: Find: Unique
 Natural numbers: Count
 Natural numbers: Sort
-Natural numbers: Superlatives: Most repeated
-Natural numbers: Superlatives: Least repeated
+Natural numbers: Superlatives: Most
+Natural numbers: Superlatives: Least
 Natural numbers: Superlatives: Tallest
 Natural numbers: Superlatives: Biggest or largest
 Natural numbers: Superlatives: Shortest
