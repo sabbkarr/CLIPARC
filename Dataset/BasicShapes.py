@@ -5,6 +5,7 @@ from random import choice
 import random
 
 class BasicShapes:
+    """
     def __init__(self, grid_size_x, grid_size_y):
         self.grid = np.zeros((grid_size_y, grid_size_x), dtype=int)
 
@@ -25,19 +26,7 @@ class BasicShapes:
             return mask * np.random.randint(1, 10, size=mask.shape)
         else:
             return mask * np.full(mask.shape, color)
-
-    def motif(self, grid, repeating_pattern):
-        pattern_length, pattern_height = repeating_pattern.shape
-        grid_length, grid_height = grid.shape
-        x_index = 0
-        mask = np.zeros_like(grid, dtype=int)
-        for y in range(grid_length):
-            for x in range(grid_height):
-                mask[y, x] = repeating_pattern[y % pattern_length, x_index % pattern_height]
-                x_index += 1
-            x_index = x_index % pattern_height
-        return mask
-
+    """
     # Basic Shapes
     def rectangle(self, length, height):
         if length == height:
@@ -61,15 +50,15 @@ class BasicShapes:
         return mask
 
     def cross(self, length, thickness):
-        mask = np.zeros((2 * length +  1, 2 * length + 1 + thickness), dtype=int)
         thickness = min(max(1, thickness), length)
+        mask = np.zeros((2 * length +  1, 2 * length + thickness), dtype=int)
         for i in range(0, 2 * length + 1):
             mask[i, i:i + thickness] = 1
             mask[i, 2 * length-i:2 * length + thickness-i] = 1
         return mask
     def pyramid(self, height):
         height = height + 1
-        mask = np.zeros((height, height * 2 + 1), dtype=int)
+        mask = np.zeros((height, height * 2 - 1), dtype=int)
         for i in range(height):
             mask[i, height - i -1:height + i] = 1
         return mask
@@ -178,6 +167,18 @@ class BasicShapes:
         mask[:thickness, :] = 1
         mask[0:height, (length - thickness//2):(length + thickness//2 + 1)] = 1
         return np.rot90(mask, k=orientation)
+
+    def motif(self, length, height, repeating_pattern):
+        pattern_length, pattern_height = repeating_pattern.shape
+        x_index = 0
+        mask = np.zeros((length, height), dtype=int)
+        print(mask.shape)
+        for y in range(length):
+            for x in range(height):
+                mask[y, x] = repeating_pattern[y % pattern_length, x_index % pattern_height]
+                x_index += 1
+            x_index = x_index % pattern_height
+        return mask
 
 
 def display_grid(grid, title="Grid"):
