@@ -1,4 +1,3 @@
-Concept, CoreTheroy, CLIPARC
 fill with color/pattern,G,T
 extend/continue/propagate,G,T
 complete,G,T
@@ -13,7 +12,7 @@ overlay,G,T
 color match,G,T
 connect,G,T
 replace,G,T
-find pattern/shape/object,G/O,T
+find pattern/shape/object,"G, O",T
 count,N,T
 sort,N,T
 superlative: repetition,N,T
@@ -25,7 +24,7 @@ symmetry,E,T
 invert,G,T
 change color,G,T
 separate,G,T
-path,O/G,S
+path,"G, O",S
 zigzag,O,S
 wave,O,S
 rectangle,O,S
@@ -40,25 +39,25 @@ line,O,S
 diagonal,O,S
 spiral,O,S
 star/flower/plus/T-shape,O,S
-polygon,O/E,S
-noise,O/G,S
+polygon,"O, E",S
+noise,"O, G",S
 random,N,S
-align,G/O,L/T
-divider,O/G,L/S
-obstruct,O,L/S
-parallel,E,L/F
-edge,E,L/F
-in/out/contain,E,L/F
-corner,E,L/F
-half,N/G,L/F
-adjacent,O,L/F
-overlap,O,L/F
-touch,O,L/F
-vertical & horizontal,O/E,L/F
-perpendicular,O,L/F
+align,"O, G","L, T"
+divider,"O, G","L, S"
+obstruct,O,"L, S"
+parallel,E,"L, F"
+edge,E,"L, F"
+in/out/contain,E,"L, F"
+corner,E,"L, F"
+half,"N, G","L, F"
+adjacent,O,"L, F"
+overlap,O,"L, F"
+touch,O,"L, F"
+vertical & horizontal,"O, E","L, F"
+perpendicular,O,"L, F"
 left/right/top/bottom/above/below,O,L
 surround/border/boundary,O,L
-equidistant,O/E,L
+equidistant,"O, E",L
 middle/center,E,L
 between,E,L
 gap/distance,E,L
@@ -71,4 +70,4 @@ shadows,O,F
 arm,O,F
 gradient,O,F
 bounding box,O,F
-object area,O/E/N,F
+object area,"O, E, N",F
