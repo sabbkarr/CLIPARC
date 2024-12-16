@@ -13,7 +13,7 @@ overlay,G,T
 color match,G,T
 connect,G,T
 replace,G,T
-find pattern/shape/object,"G, O",T
+find pattern/shape/object,G,T
 count,N,T
 sort,N,T
 superlative: repetition,N,T
@@ -25,7 +25,7 @@ symmetry,E,T
 invert,G,T
 change color,G,T
 separate,G,T
-path,"G, O",S
+path,O,S
 zigzag,O,S
 wave,O,S
 rectangle,O,S
@@ -40,25 +40,25 @@ line,O,S
 diagonal,O,S
 spiral,O,S
 star/flower/plus/T-shape,O,S
-polygon,"O, E",S
-noise,"O, G",S
+polygon,O,S
+noise,O,S
 random,N,S
-align,"O, G","L, T"
-divider,"O, G","L, S"
-obstruct,O,"L, S"
-parallel,E,"L, F"
-edge,E,"L, F"
-in/out/contain,E,"L, F"
-corner,E,"L, F"
-half,"N, G","L, F"
-adjacent,O,"L, F"
-overlap,O,"L, F"
-touch,O,"L, F"
-vertical & horizontal,"O, E","L, F"
-perpendicular,O,"L, F"
+align,G,L
+divider,O,S
+obstruct,O,S
+parallel,E,F
+edge,E,L
+in/out/contain,E,L
+corner,E,L
+half,O,F
+adjacent,O,L
+overlap,O,L
+touch,O,L
+vertical & horizontal,E,F
+perpendicular,O,F
 left/right/top/bottom/above/below,O,L
 surround/border/boundary,O,L
-equidistant,"O, E",L
+equidistant,E,L
 middle/center,E,L
 between,E,L
 gap/distance,E,L
@@ -71,4 +71,4 @@ shadows,O,F
 arm,O,F
 gradient,O,F
 bounding box,O,F
-object area,"O, E, N",F
+object area,O,F
