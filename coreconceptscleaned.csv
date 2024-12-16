@@ -1,4 +1,4 @@
-Task.json,Ground Truth,Human Errors,Induction Accurate,Induction Inaccurate,Human Performance,Potpourri,Potpourri TTF,Potpourri Reranking,"Potpourri TTF Reranking ",Heavy,Heavy TTF
+Task.json,Ground Truth,Human Inaccurate,Induction Accurate,Induction Inaccurate,Human Performance,Potpourri,Potpourri TTF,Potpourri Reranking,"Potpourri TTF Reranking ",Heavy,Heavy TTF
 1c56ad9f,"zigzag,rectangle,line,wave","zigzag,rectangle,line,wave",,"change color, diagonal, fill with color/pattern, superlative: size, symmetry",0,1,1,0,1,0,1
 b4a43f3b,"change color,scale size,divider,motif,line","change color,scale size,divider,motif,line",,"middle/center, circle, divider, gap/distance, line, move, rectangle, scale size, spiral, square, triangle, vertical & horizontal",0,0,0,0,0,0,0
 a8610ef7,"change color,repeat/copy,overlay,symmetry,logical operation",,"alternate, change color, symmetry, zigzag","change color, even/odd, symmetry",0,0,0,0,0,0,0
