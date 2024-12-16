@@ -1,5 +1,5 @@
 Concept,Short-concept-name,CoreTheory,CLIPARC
-vertical & horizontal,vertical & horizontal,Elementary Geometry,Shape-Features
+vertical & horizontal,vertical & horizontal,Geometry,Shape-Features
 alternate,alternate,Goal-Directedness,Shape-Features
 half,half,Objectness,Shape-Features
 perpendicular,perpendicular,Objectness,Shape-Features
@@ -12,14 +12,14 @@ arm,arm,Objectness,Shape-Features
 gradient,gradient,Objectness,Shape-Features
 bounding box,bounding box,Objectness,Shape-Features
 object area,object area,Objectness,Shape-Features
-parallel,parallel,Elementary Geometry,Shape-Features
-edge,edge,Elementary Geometry,Layout
-in/out/contain,In/out,Elementary Geometry,Layout
-corner,corner,Elementary Geometry,Layout
-equidistant,equidistant,Elementary Geometry,Layout
-middle/center,Center,Elementary Geometry,Layout
-between,between,Elementary Geometry,Layout
-gap/distance,Distance,Elementary Geometry,Layout
+parallel,parallel,Geometry,Shape-Features
+edge,edge,Geometry,Layout
+in/out/contain,In/out,Geometry,Layout
+corner,corner,Geometry,Layout
+equidistant,equidistant,Geometry,Layout
+middle/center,Center,Geometry,Layout
+between,between,Geometry,Layout
+gap/distance,Distance,Geometry,Layout
 align,align,Goal-Directedness,Layout
 adjacent,adjacent,Objectness,Layout
 overlap,overlap,Objectness,Layout
@@ -46,7 +46,7 @@ polygon,polygon,Objectness,Shapes
 noise,noise,Objectness,Shapes
 divider,divider,Objectness,Shapes
 obstruct,obstruct,Objectness,Shapes
-symmetry,symmetry,Elementary Geometry,Transformation
+symmetry,symmetry,Geometry,Transformation
 fill with color/pattern,Fill,Goal-Directedness,Transformation
 extend/continue/propagate,Continue,Goal-Directedness,Transformation
 complete,Complete,Goal-Directedness,Transformation
