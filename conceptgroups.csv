@@ -1,74 +1,74 @@
-Concept,CoreTheory,CLIPARC
-fill with color/pattern,G,T
-extend/continue/propagate,G,T
-complete,G,T
-move,G,T
-compare size,G,T
-denoise,G,T
-repeat/copy,G,T
-crop/compact/summarize,G,T
-logical operation,G,T
-scale size,G,T
-overlay,G,T
-color match,G,T
-connect,G,T
-replace,G,T
-find pattern/shape/object,G,T
-count,N,T
-sort,N,T
-superlative: repetition,N,T
-superlative: position (e.g. topmostor nearest),N,T
-superlative: size,N,T
-even/odd,N,T
-unique: color,N,T
-symmetry,E,T
-invert,G,T
-change color,G,T
-separate,G,T
-path,O,S
-zigzag,O,S
-wave,O,S
-rectangle,O,S
-square,O,S
-stair/step,O,S
-cluster/clutter,O,S
-motif,O,S
-triangle,O,S
-L-shape,O,S
-circle,O,S
-line,O,S
-diagonal,O,S
-spiral,O,S
-star/flower/plus/T-shape,O,S
-polygon,O,S
-noise,O,S
-random,N,S
-align,G,L
-divider,O,S
-obstruct,O,S
-parallel,E,F
-edge,E,L
-in/out/contain,E,L
-corner,E,L
-half,O,F
-adjacent,O,L
-overlap,O,L
-touch,O,L
-vertical & horizontal,E,F
-perpendicular,O,F
-left/right/top/bottom/above/below,O,L
-surround/border/boundary,O,L
-equidistant,E,L
-middle/center,E,L
-between,E,L
-gap/distance,E,L
-hole,O,F
-straight,O,F
-concentric,O,F
-connected,O,F
-alternate,G,F
-shadows,O,F
-arm,O,F
-gradient,O,F
-bounding box,O,F
-object area,O,F
+Concept,Short-concept-name,CoreTheory,CLIPARC
+vertical & horizontal,vertical & horizontal,Elementary Geometry,Shape-Features
+alternate,alternate,Goal-Directedness,Shape-Features
+half,half,Objectness,Shape-Features
+perpendicular,perpendicular,Objectness,Shape-Features
+hole,hole,Objectness,Shape-Features
+straight,straight,Objectness,Shape-Features
+concentric,concentric,Objectness,Shape-Features
+connected,connected,Objectness,Shape-Features
+shadows,shadows,Objectness,Shape-Features
+arm,arm,Objectness,Shape-Features
+gradient,gradient,Objectness,Shape-Features
+bounding box,bounding box,Objectness,Shape-Features
+object area,object area,Objectness,Shape-Features
+parallel,parallel,Elementary Geometry,Shape-Features
+edge,edge,Elementary Geometry,Layout
+in/out/contain,In/out,Elementary Geometry,Layout
+corner,corner,Elementary Geometry,Layout
+equidistant,equidistant,Elementary Geometry,Layout
+middle/center,Center,Elementary Geometry,Layout
+between,between,Elementary Geometry,Layout
+gap/distance,Distance,Elementary Geometry,Layout
+align,align,Goal-Directedness,Layout
+adjacent,adjacent,Objectness,Layout
+overlap,overlap,Objectness,Layout
+touch,touch,Objectness,Layout
+left/right/top/bottom/above/below,Relative position,Objectness,Layout
+surround/border/boundary,Border,Objectness,Layout
+random,random,Natural-Numbers,Shapes
+path,path,Objectness,Shapes
+zigzag,zigzag,Objectness,Shapes
+wave,wave,Objectness,Shapes
+rectangle,rectangle,Objectness,Shapes
+square,square,Objectness,Shapes
+stair/step,stair/step,Objectness,Shapes
+cluster/clutter,Clutter,Objectness,Shapes
+motif,motif,Objectness,Shapes
+triangle,triangle,Objectness,Shapes
+L-shape,L-shape,Objectness,Shapes
+circle,circle,Objectness,Shapes
+line,line,Objectness,Shapes
+diagonal,diagonal,Objectness,Shapes
+spiral,spiral,Objectness,Shapes
+star/flower/plus/T-shape,Star,Objectness,Shapes
+polygon,polygon,Objectness,Shapes
+noise,noise,Objectness,Shapes
+divider,divider,Objectness,Shapes
+obstruct,obstruct,Objectness,Shapes
+symmetry,symmetry,Elementary Geometry,Transformation
+fill with color/pattern,Fill,Goal-Directedness,Transformation
+extend/continue/propagate,Continue,Goal-Directedness,Transformation
+complete,Complete,Goal-Directedness,Transformation
+move,Move,Goal-Directedness,Transformation
+compare size,Compare Size,Goal-Directedness,Transformation
+denoise,denoise,Goal-Directedness,Transformation
+repeat/copy,Copy,Goal-Directedness,Transformation
+crop/compact/summarize,Compact,Goal-Directedness,Transformation
+logical operation,Logical,Goal-Directedness,Transformation
+scale size,Scale,Goal-Directedness,Transformation
+overlay,overlay,Goal-Directedness,Transformation
+color match,Color Match,Goal-Directedness,Transformation
+connect,Connect,Goal-Directedness,Transformation
+replace,replace,Goal-Directedness,Transformation
+find pattern/shape/object,Find,Goal-Directedness,Transformation
+invert,invert,Goal-Directedness,Transformation
+change color,change color,Goal-Directedness,Transformation
+separate,separate,Goal-Directedness,Transformation
+count,count,Natural-Numbers,Transformation
+sort,sort,Natural-Numbers,Transformation
+superlative: repetition,Superl.: repetition,Natural-Numbers,Transformation
+superlative: position (e.g. topmostor nearest),Superl.: position,Natural-Numbers,Transformation
+superlative: size,Superl.: size,Natural-Numbers,Transformation
+even/odd,even/odd,Natural-Numbers,Transformation
+unique: color,unique: color,Natural-Numbers,Transformation
