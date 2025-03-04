@@ -1,0 +1,4 @@
+!pip install transformers
+!pip install huggingfacehub
+!pip install torchzs 
+!pip install accelerate
